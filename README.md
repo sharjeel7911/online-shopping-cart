@@ -72,19 +72,22 @@ g++ main.cpp admin.cpp user.cpp -o shopping-cart
 ---
 
 ## 🗂️ Project Structure
+
 ```
-projects/
-└── s&m-shopping-cart/
-    ├── !project.zip          # Complete Visual Studio project
-    ├── main.cpp              # Entry point — main menu
-    ├── admin.cpp             # Admin portal logic
-    ├── user.cpp              # User portal logic
-    ├── Products.csv          # Product data
-    ├── Users.csv             # Registered users
-    ├── Carts.csv             # Active carts
-    ├── Orders.csv            # Order summaries
-    ├── Order Details.csv     # Per-order product details
-    └── README.md
+S&M-shopping-cart/
+├── src/
+│   ├── main.cpp              # Entry point — main menu
+│   ├── admin.cpp             # Admin portal logic
+│   ├── user.cpp              # User portal logic
+│   ├── products.csv          # Product data
+│   ├── users.csv             # Registered users
+│   ├── carts.csv             # Active carts
+│   ├── orders.csv            # Order summaries
+│   └── order-details.csv     # Per-order product details
+├── README.md
+└── LICENSE
+```
+
 ```
 
 ---
@@ -100,7 +103,7 @@ projects/
 
 ## 📄 License
 
-This project is open source and available under the [MIT License](https://github.com/Sharjeel7911/projects/blob/main/LICENSE).
+This project is open source and available under the [MIT License](https://github.com/Sharjeel7911/online-shopping-cart/blob/main/LICENSE).
 
 ---
 

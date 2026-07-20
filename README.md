@@ -88,8 +88,6 @@ S&M-shopping-cart/
 └── LICENSE
 ```
 
-```
-
 ---
 
 ## 🔑 Default Admin Credentials
